@@ -118,3 +118,78 @@ h1 {
     width: 100%;
     font-size: 1.5em;
 }
+
+.custom-input-button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    max-width: 250px; /* Set a smaller max-width */
+    margin: 0 auto;
+  }
+  
+  .custom-input-button input {
+    padding: 8px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px; /* Slightly smaller text */
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .custom-input-button input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .custom-input-button button {
+    padding: 8px 16px; /* Adjust button padding for compact size */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-input-button button:hover {
+    background-color: #0056b3;
+  }
+
+  
+
+/* Web SocketConnect Button */
+
+
+  .connect-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #66b3ff; /* Light Blue */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3); /* Subtle shadow for a shiny effect */
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  }
+  
+  .connect-button:hover {
+    background-color: #3385cc; /* Darker Blue */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 123, 255, 0.4); /* Stronger shine on hover */
+  }
+  
+  .connect-button:active {
+    background-color: #2670a0; /* Even darker Blue */
+    transform: translateY(0);
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3); /* Subtle shine effect when clicked */
+  }
+  
+  .connect-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); /* Soft blue focus glow */
+  }
+  
